@@ -85,3 +85,4 @@ public class tcpPing {
         }
     }
 }
+//Jeg har bemærket at respons tiden er ret højt i forhold til ping clienten som operativ system kommer med. Dette skyldes at jeg læser responsen og beregner tiden derefter.
