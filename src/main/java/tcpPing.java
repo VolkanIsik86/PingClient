@@ -12,6 +12,8 @@ public class tcpPing {
 
         System.out.println("Enter url/ip number to ping ?");
         String pingTo = scan.nextLine();
+
+
         try {
             server = new Socket(pingTo, 80);
             fromServer = new BufferedReader((new InputStreamReader(server.getInputStream())));
